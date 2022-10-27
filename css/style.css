@@ -1,17 +1,29 @@
 body {
-  background: #fff;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
+  background: #EBE5CA;
   color:#000;
+  font-family:'Ebrima, sans-serif';
+  font-size: 1rem;
 }
 
 #main {
   max-width: 1920px;
   width: 100%;
   float: left;
+  margin-top:90px;
 }
 
-.container-fluid {
+header {
+  position:fixed;
+  top:0;
+  display:flex;
+}
+
+header, footer {
+  background-color:#141A35;
+  color:#fff;
+}
+
+.container {
   width: 100%;
   padding-left: 15px;
   padding-right: 15px;
@@ -20,6 +32,10 @@ body {
 }
 
 h1 {
-  font-family:'Times New Roman', Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size:3rem;
+}
+
+li {
+  list-style:none;
 }

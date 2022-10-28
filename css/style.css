@@ -61,5 +61,7 @@ li {
   background:#885F38;
   border-radius:5px;
   color:#fff;
-  padding: 15px 50px;
+  padding: 10px 40px;
+  margin-right: 60px; 
+  font-size:1.2rem;
 }

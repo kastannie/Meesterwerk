@@ -1,24 +1,11 @@
 body {
-  background: #ebe5ca;
+  background: #D1BEB0;
   color: #161515;
   font-family: "Ebrima";
   font-size: 1rem;
   margin: 0;
   padding: 0;
   box-sizing:border-box;
-}
-
-@media only screen and (max-width: 992px) {
-  #main {
-    margin-top: 60px;
-  }
-
-  .welcome {
-    position: absolute;
-    width: 100%;
-    top: 20%;
-    font-size: 2rem;
-  }
 }
 
 .sticky {
@@ -29,7 +16,7 @@ body {
 
 header,
 footer {
-  background-color: #141a35;
+  background-color: #574F2A;
   color: #fff;
   padding: 15px 0px;
   box-sizing: border-box;
@@ -91,12 +78,16 @@ li {
 }
 
 .button {
-  background: #885f38;
-  border-radius: 5px;
+  background: #113355;
+  border-radius: 25px;
   color: #fff;
   padding: 8px 30px;
-  font-size: 1.2rem;
+  font-size: 18px;
   font-weight: bold;
+}
+
+.button:hover {
+  background-color:#336EA9;
 }
 
 .welcome {
@@ -106,6 +97,31 @@ li {
   color: #fff;
 }
 
-.m-3 {
+.mr-1 {
+  margin-right: 10px;
+}
+
+.mr-2 {
+  margin-right: 20px;
+}
+
+.mr-3 {
   margin-right: 30px;
+}
+
+.mr-4 {
+  margin-right: 40px;
+}
+
+.gap-6 {
+  display: flex;
+  gap: 60px;
+}
+
+.headline1 {
+  background-image: url("http://127.0.0.1:5500/img/Logo's/band-of-brothers-1-white.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  max-height: 1080px;
+  height: 100%;
 }

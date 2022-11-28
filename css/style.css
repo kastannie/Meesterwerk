@@ -1,11 +1,11 @@
 body {
-  background: #D1BEB0;
+  background: #d1beb0;
   color: #161515;
   font-family: "Ebrima";
   font-size: 1rem;
   margin: 0;
   padding: 0;
-  box-sizing:border-box;
+  box-sizing: border-box;
 }
 
 .sticky {
@@ -16,7 +16,7 @@ body {
 
 header,
 footer {
-  background-color: #574F2A;
+  background-color: #574f2a;
   color: #fff;
   padding: 15px 0px;
   box-sizing: border-box;
@@ -62,20 +62,26 @@ footer {
   padding-right: 30px;
   margin-left: auto;
   margin-right: auto;
+  box-sizing: border-box;
+}
+
+.spacing-block {
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  z-index:2;
+  z-index: 2;
 }
 
 .color-white {
-  color:#fff!important;
+  color: #fff !important;
 }
 
 .color-black {
-  color:#161515!important;
+  color: #161515 !important;
 }
 
 a {
@@ -96,14 +102,7 @@ li {
 }
 
 .button:hover {
-  background-color:#336EA9;
-}
-
-.welcome {
-  position: absolute;
-  width: 100%;
-  top: 25%;
-  color: #fff;
+  background-color: #336ea9;
 }
 
 .mr-1 {
@@ -127,20 +126,23 @@ li {
   gap: 60px;
 }
 
-.headline1 img{
-  position:absolute;
-  left:0;
-  top:0;
-  z-index:-1;
+.headline1 {
+  text-align: center;
 }
 
-.headline1 {
-  height:1080px;
-  text-align:center;
-  padding-top:180px;
+.headline1 span {
+  display: flex;
+  justify-content: center;
 }
 
 img {
   width: 100%;
   height: auto;
+}
+
+.headline-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }

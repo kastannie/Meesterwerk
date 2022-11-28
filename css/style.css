@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #d1beb0;
   color: #161515;
@@ -76,17 +80,57 @@ footer {
 }
 
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Rubik Dirt;
+  font-weight: 400;
   font-size: 40px;
   z-index: 2;
 }
 
+.flickity-enabled.is-draggable .flickity-viewport,
 a:hover {
- cursor: cell;
+  cursor: cell !important;
+}
+
+#Hoofdpersonen,
+#Verhalen {
+  text-align: center;
+}
+
+#Hoofdpersonen img {
+  max-width: 400px;
+  margin-bottom: -60px;
+}
+
+#Verhalen img {
+  max-width: 400px;
+  border-radius: 25px;
+  margin-right: 50px;
+}
+
+#Verhalen img:first-child {
+  margin-left: 50px;
+}
+
+#Makers {
+  display: flex;
+  justify-content: space-between;
+}
+
+#more {
+  display: none;
+}
+
+.w-60 {
+  width: 60%;
+  max-width: 100%;
+}
+
+.two img {
+  width: 400px !important;
 }
 
 .second-block {
-  background-color:#DCC7B5;
+  background-color: #dcc7b5;
 }
 
 .color-white {
@@ -105,6 +149,37 @@ li {
   list-style: none;
 }
 
+#myBtn {
+  color: #113355;
+  text-decoration: underline;
+}
+
+#myBtn:hover {
+  color: #336ea9;
+}
+
+.gifs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.gif img {
+  width: 600px;
+}
+
+.gallery-cell h2:hover {
+  color: #336ea9;
+}
+
+.static {
+  position: absolute;
+  background: white;
+}
+
+.static:hover {
+  opacity: 0;
+}
+
 .button {
   background: #113355;
   border-radius: 25px;
@@ -112,6 +187,15 @@ li {
   padding: 8px 30px;
   font-size: 18px;
   font-weight: bold;
+}
+
+.flickity-button {
+  background-color: #113355 !important;
+  color: #fff !important;
+}
+
+.flickity-button:hover {
+  background-color: #336ea9 !important;
 }
 
 .button:hover {
@@ -158,4 +242,40 @@ img {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+footer {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.socials a {
+  margin-right:30px;
+}
+
+footer h3 {
+  margin-left:-120px;
+}
+
+.coming {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 992px) {
+  #Makers,
+  .gifs {
+    display: block;
+  }
+
+  .gif img,
+  .two img {
+    width: 350px !important;
+  }
+
+  .w-60 {
+    width: 100% !important;
+  }
 }

@@ -1,10 +1,11 @@
 body {
   background: #ebe5ca;
-  color: #000;
+  color: #161515;
   font-family: "Ebrima";
   font-size: 1rem;
   margin: 0;
   padding: 0;
+  box-sizing:border-box;
 }
 
 @media only screen and (max-width: 992px) {
@@ -103,11 +104,6 @@ li {
   width: 100%;
   top: 25%;
   color: #fff;
-}
-
-.black-space {
-  height: 100px;
-  background: #000;
 }
 
 .m-3 {

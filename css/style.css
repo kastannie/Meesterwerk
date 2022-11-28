@@ -81,6 +81,14 @@ h1 {
   z-index: 2;
 }
 
+a:hover {
+ cursor: cell;
+}
+
+.second-block {
+  background-color:#DCC7B5;
+}
+
 .color-white {
   color: #fff !important;
 }
